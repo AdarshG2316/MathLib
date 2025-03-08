@@ -3,7 +3,7 @@
     "description": "A simple math library for Laravel",
     "type": "library",
     "license": "MIT",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
         {
             "name": "Adarsh G",
