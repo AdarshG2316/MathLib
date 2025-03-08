@@ -1,0 +1,30 @@
+{
+    "name": "adarshg2316/laravel-math-utilities",
+    "description": "A simple math library for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.1",
+    "authors": [
+        {
+            "name": "Adarsh G",
+            "email": "adarshg2316@gmail.com"
+        }
+    ],
+    "keywords": ["math", "laravel", "library"],
+    "autoload": {
+        "psr-4": {
+            "AdarshG2316\\MathLib\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AdarshG2316\\MathLib\\Providers\\MathLibServiceProvider"
+            ],
+            "aliases": {
+                "MathLib": "AdarshG2316\\MathLib\\Facades\\MathLib"
+            }
+        }
+    },
+    "require": {}
+}
